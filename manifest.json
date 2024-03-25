@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Blur",
+  "version": "1.0",
+  "description": "Does the thing",
+  "content_scripts": [
+    {
+	"js": ["myscript.js"],
+	"matches": ["<all_urls>"],
+	"run_at": "document_start"
+    }
+  ]
+}
